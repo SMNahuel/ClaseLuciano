@@ -116,7 +116,7 @@ body{
     color: #333;
  }
 
- .conteiner form button{
+ .conteiner form button, .backbtn{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -149,7 +149,7 @@ body{
 
  }
 
- form .buttons button{
+ form .buttons button, .backbtn{
     margin-right: 14px;
-    
+
  }
