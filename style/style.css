@@ -49,14 +49,18 @@ body{
     position: relative;
     margin-top: 16px;
     min-height: 490px;
-    background-color: #f2f2f2;
+    background-color: #fff;
 }
- .conteiner form .detatail{
-    margin-top: 30px;
- }
- .conteiner form .detatail .id{
-    margin-top: 10px;
- }
+.conteiner form .form{
+    position: absolute;
+    background-color: #fff;
+}
+.conteiner form .form.second{
+    opacity: 0;
+    pointer-events: none ;
+}
+
+ 
  
 
  .conteiner form .title{
@@ -135,14 +139,28 @@ body{
 
  }
 
+ .conteiner form button{
+
+ }
+ .conteiner form , .backbtn{
+    font-size: 14px ;
+    font-weight:400 ;
+ }
+
  form button:hover{
     background-color: #2e2e2e;
  }
 
- form button i{
+ form button i,
+ form .backbtn i{
     margin: 0 6px;
 
  }
+
+form .backbtn i{
+    transform: rotate(180deg);
+}
+
  form .buttons{
     display: flex;
     align-items: center;
