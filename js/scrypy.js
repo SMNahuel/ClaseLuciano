@@ -1,6 +1,6 @@
-const form = document.querySelector("form")
-        nextbtn= document.querySelector(".nextbtn")
-        backbtn= document.querySelector(".backbtn")
+const form = document.querySelector("form"),
+        nextbtn= document.querySelector(".nextbtn"),
+        backbtn= document.querySelector(".backbtn"),
         allInput= document.querySelectorAll(".first input");
 
 nextbtn.addEventListener("click",() =>{
@@ -9,7 +9,9 @@ nextbtn.addEventListener("click",() =>{
             form.classList.add('secActive');            
         }else{
             form.classList.remove('secActive');
-            alert("input is empty");
+            
         }
     })
 })
+
+backbtn.addEventListener("click",() =>  form.classList.remove('secActive'));
