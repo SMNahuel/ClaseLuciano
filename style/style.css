@@ -227,6 +227,6 @@ form .backbtn i{
 
  @media (min-width: 400px) {
    .container {
-    height: 2280px;
+      height: 1450px;
    }
  }
