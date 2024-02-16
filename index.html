@@ -1,188 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PUCOP3</title>
-    <link rel="stylesheet" href="/style/style.css">
-
-</head>
-<body>
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+  <body>
     <div class="conteiner">
-        <header>
-            <h1 class="header__titulo">Padrón Único Consolidado de Población </h1>
-            <p>Se define como Padrón Único Consolidado de Población (PUCOP) a la nómina de población afiliada/beneficiaria producto del agregado de los padrones de afiliados/beneficiarios de cada Agente Financiador. Los padrones se conforman a partir de los campos requeridos en la matriz correspondiente.</p>
+      <header>
+        <h1 class="header__titulo">Padrón Único Consolidado de Población</h1>
+        <p>
+          Se define como Padrón Único Consolidado de Población (PUCOP) a la
+          nómina de población afiliada/beneficiaria producto del agregado de los
+          padrones de afiliados/beneficiarios de cada Agente Financiador. Los
+          padrones se conforman a partir de los campos requeridos en la matriz
+          correspondiente.
+        </p>
+      </header>
+      <form action="#">
+        <div class="form first">
+          <div class="detatail personal">
+            <samp class="title">Alta</samp>
 
-        </header>
-        <form action="#">
-            <div class="form first">
-                <div class="detatail personal">
+            <div class="detail id">
+              <button class="nextbtn" type="button">
+                <samp class="btntext">Baja</samp>
+                <i class="uil uil-navigator"></i>
+              </button>
+            </div>
 
-                    <samp class="title">Alta</samp>
-
-                    <div class="detail id">
-                    
-
-                    
-                        <button class="nextbtn">
-                            <samp class="btntext">Baja</samp>
-                            <i class="uil uil-navigator"></i>
-                        </button>
-                    </div>
-
-                    <div class="Field">
-                        <div class="Input-fild">
-                            <label >Codigo de Entidad</label>
-                            <input type="number" placeholder="********">
-                        </div>
-                        <div class="Input-fild">
-                            <label>Tipo de documento</label>
-                            <input type="text" placeholder="********">
-                        </div>
-                        <div class="Input-fild">
-                            <label >Numero de documento</label>
-                            <input type="number" placeholder="********">
-                        </div>
-                        <div class="Input-fild">
-                            <label >Cuil del titular</label>
-                            <input type="number" placeholder="********">
-                        </div>
-                        <div class="Input-fild">
-                            <label>CUIL del beneficiario</label>
-                            <input type="number" placeholder="********">
-                        </div>
-                        <div class="Input-fild">
-                            <label >Codigo parentesco</label>
-                            <input type="number" placeholder="********">
-                        </div>
-                        <div class="Input-fild">
-                            <label >Tipo de Beneficiario</label>
-                            <input type="number" placeholder="********">
-                        </div>
-                        <div class="Input-fild">
-                            <label >Apellido/s y Nombre/s</label>
-                            <input type="number" placeholder="********">
-                        </div>
-                        <div class="Input-fild">
-                            <label >Sexo Registrado en el Documento</label>
-                            <input type="number" placeholder="********">
-                        </div>
-                        <div class="Input-fild">
-                            <label >Fecha de Nacimiento</label>
-                            <input type="number" placeholder="********">
-                        </div>
-                        <div class="Input-fild">
-                            <label >Calle</label>
-                            <input type="number" placeholder="********">
-                        </div>
-                        <div class="Input-fild">
-                            <label >N° de puerta</label>
-                            <input type="number" placeholder="********">
-                        </div>
-                        <div class="Input-fild">
-                            <label >Piso</label>
-                            <input type="number" placeholder="********">
-                        </div>
-                        <div class="Input-fild">
-                            <label >Departamento</label>
-                            <input type="number" placeholder="********">
-                        </div>
-                        <div class="Input-fild">
-                            <label >Código Postal</label>
-                            <input type="number" placeholder="********">
-                        </div>
-                        <div class="Input-fild">
-                            <label >Provincia</label>
-                            <input type="number" placeholder="********">
-                        </div>
-                        <div class="Input-fild">
-                            <label >Fecha de Último Pago / Inscripción</label>
-                            <input type="number" placeholder="********">
-                        </div>
-                        <div class="Input-fild">
-                            <label >Fecha de Cierre del Padrón</label>
-                            <input type="number" placeholder="********">
-                        </div>
-                        
-                    </div>
-                </div>
+            <div class="Field" id="containerInputs">
                 
             </div>
+          </div>
+        </div>
 
-            <div class="form second">
-                <div class="detatail adrress">
-                    <samp class="title">Baja</samp>
+        <div class="form second">
+          <div class="detatail adrress">
+            <samp class="title">Baja</samp>
 
-                    <div class="buttons">
-                        <div class="backbtn">
-                            <samp class="btntext">Alta</samp>
-                            <i class="uil uil-navigator"></i>
-                        </div>
-                        
-                        </div>
-
-                    <div class="Field">
-                        <div class="Input-fild">
-                            <label >Adress tipe</label>
-                            <input type="number" placeholder="********">
-                        </div>
-                        <div class="Input-fild">
-                            <label>Tipo de documento</label>
-                            <input type="text" placeholder="********">
-                        </div>
-                        <div class="Input-fild">
-                            <label >Numero de documento</label>
-                            <input type="number" placeholder="********">
-                        </div>
-                        <div class="Input-fild">
-                            <label >Cuil del titular</label>
-                            <input type="number" placeholder="********">
-                        </div>
-                        <div class="Input-fild">
-                            <label>CUIL del beneficiario</label>
-                            <input type="number" placeholder="********">
-                        </div>
-                        <div class="Input-fild">
-                            <label >Codigo parentesco</label>
-                            <input type="number" placeholder="********">
-                        </div>
-                    </div>
-                </div>
-                <div class="detail id">
-                    <samp class="title">Identidad Personal</samp>
-
-                    <div class="Field">
-                        <div class="Input-fild">
-                            <label >Codigo de Entidad</label>
-                            <input type="number" placeholder="********">
-                        </div>
-                        <div class="Input-fild">
-                            <label>Tipo de documento</label>
-                            <input type="text" placeholder="********">
-                        </div>
-                        <div class="Input-fild">
-                            <label >Numero de documento</label>
-                            <input type="number" placeholder="********">
-                        </div>
-                        <div class="Input-fild">
-                            <label >Cuil del titular</label>
-                            <input type="number" placeholder="********">
-                        </div>
-                        <div class="Input-fild">
-                            <label>CUIL del beneficiario</label>
-                            <input type="number" placeholder="********">
-                        </div>
-                        <div class="Input-fild">
-                            <label >Codigo parentesco</label>
-                            <input type="number" placeholder="********">
-                        </div>
-                    </div>
-                    
-                </div>
+            <div class="buttons">
+              <div class="backbtn">
+                <samp class="btntext">Alta</samp>
+                <i class="uil uil-navigator"></i>
+              </div>
             </div>
-        </form>
 
+            <div class="Field">
+              <div class="Input-fild">
+                <label>Adress tipe</label>
+                <input type="number" placeholder="********" />
+              </div>
+              <div class="Input-fild">
+                <label>Tipo de documento</label>
+                <input type="text" placeholder="********" />
+              </div>
+              <div class="Input-fild">
+                <label>Numero de documento</label>
+                <input type="number" placeholder="********" />
+              </div>
+              <div class="Input-fild">
+                <label>Cuil del titular</label>
+                <input type="number" placeholder="********" />
+              </div>
+              <div class="Input-fild">
+                <label>CUIL del beneficiario</label>
+                <input type="number" placeholder="********" />
+              </div>
+              <div class="Input-fild">
+                <label>Codigo parentesco</label>
+                <input type="number" placeholder="********" />
+              </div>
+            </div>
+          </div>
+          <div class="detail id">
+            <samp class="title">Identidad Personal</samp>
+
+            <div class="Field">
+              <div class="Input-fild">
+                <label>Codigo de Entidad</label>
+                <input type="number" placeholder="********" />
+              </div>
+              <div class="Input-fild">
+                <label>Tipo de documento</label>
+                <input type="text" placeholder="********" />
+              </div>
+              <div class="Input-fild">
+                <label>Numero de documento</label>
+                <input type="number" placeholder="********" />
+              </div>
+              <div class="Input-fild">
+                <label>Cuil del titular</label>
+                <input type="number" placeholder="********" />
+              </div>
+              <div class="Input-fild">
+                <label>CUIL del beneficiario</label>
+                <input type="number" placeholder="********" />
+              </div>
+              <div class="Input-fild">
+                <label>Codigo parentesco</label>
+                <input type="number" placeholder="********" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
     </div>
     <script src="/js/scrypy.js"></script>
-</body>
+    <script src="/js/form.js"></script>
+  </body>
 </html>
