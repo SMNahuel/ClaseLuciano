@@ -81,6 +81,8 @@ body {
 .conteiner header .header__titulo {
   background-color: var(--limon);
   border-radius: 10%;
+  padding: 20px;
+  width: 100%;
 }
 
 .conteiner form {
@@ -90,12 +92,11 @@ body {
   background-color: #fff;
 }
 .conteiner form .form {
-  position: absolute;
   background-color: #fff;
   transition: 0.3s ease;
 }
 .conteiner form .form.second {
-  opacity: 0;
+  display: none;
   pointer-events: none;
 }
 
@@ -210,5 +211,9 @@ form .buttons button,
 }
 
 @media (min-width: 400px) {
-
+}
+.container-buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }

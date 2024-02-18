@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PUCOP3</title>
-    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
     <div class="conteiner">
@@ -19,23 +19,32 @@
         </p>
       </header>
       <form action="#">
+        <!-- COMIENZO del formulario uno -->
         <div class="form first">
           <div class="detatail personal">
-            <samp class="title">Alta</samp>
+            <div class="Field" id="containerInputs"></div>
+          </div>
+          
+          <div class="container-buttons">
+            <!-- Contenedor de botones -->
+            
+              <button class="nextbtn" type="button">
+                <samp class="btntext">Alta</samp>
+                <i class="uil uil-navigator"></i>
+              </button>
+            
 
-            <div class="detail id">
+            
               <button class="nextbtn" type="button">
                 <samp class="btntext">Baja</samp>
                 <i class="uil uil-navigator"></i>
               </button>
-            </div>
-
-            <div class="Field" id="containerInputs">
-                
-            </div>
+            
           </div>
         </div>
+        <!-- FIN del formulario uno -->
 
+        <!-- COMIENZO formulario dos -->
         <div class="form second">
           <div class="detatail adrress">
             <samp class="title">Baja</samp>
@@ -107,7 +116,7 @@
         </div>
       </form>
     </div>
-    <script src="/js/scrypy.js"></script>
-    <script src="/js/form.js"></script>
+    <script src="./js/fetch.js"></script>
+    <script src="./js/form.js"></script>
   </body>
 </html>
